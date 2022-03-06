@@ -111,15 +111,15 @@ main ul li{
     list-style-type: disc;
 }
 
-.grid__container {
+.grid__container{
     display: grid; 
     grid-auto-columns: 1fr 1fr; 
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr ; 
     grid-template-rows: 0.25fr 2.5fr 0.5fr; 
     grid-template-areas: 
-      "header header"
-      "main__st main__st"
-      "footer footer";
+      "header "
+      "main__st"
+      "footer ";
 }
 
 section .all__img{
@@ -155,6 +155,72 @@ section .mac{
 }
 
 section .medida{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+/* ----------------- Redes ----------------- */
+
+section .servicios__redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section .monitoreo{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+section .estructura{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ----------------- Camaras ----------------- */
+
+section .home__basic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section .pro__premium{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+section .pro__extreme{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main h3{
+    text-align: center;
+}
+
+main h6{
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* ----------------- Web ----------------- */
+
+section .diseno__web{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section .hosting{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
