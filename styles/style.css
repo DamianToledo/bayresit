@@ -111,16 +111,17 @@ main ul li{
     list-style-type: disc;
 }
 
-.grid__container{
+/*.grid__container{
+    width: 100%;
     display: grid; 
     grid-auto-columns: 1fr 1fr; 
-    grid-template-columns: 1fr ; 
+    grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.25fr 2.5fr 0.5fr; 
     grid-template-areas: 
-      "header "
-      "main__st"
-      "footer ";
-}
+      ".header .header"
+      ".main .main"
+      ".footer .footer";
+} */
 
 section .all__img{
     display: flex;
@@ -228,5 +229,12 @@ section .hosting{
 }
 
 /* ----------------- Contactos ----------------- */
+
+.form{
+    padding-right: 250px;
+    padding-left: 250px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
 
 /* ----------------- Media Queries ----------------- */
