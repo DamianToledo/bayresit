@@ -116,21 +116,6 @@ main ul li{
     list-style-type: disc;
 }
 
-<<<<<<< HEAD:styles/style.css
-/*.grid__container{
-    width: 100%;
-    display: grid; 
-    grid-auto-columns: 1fr 1fr; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 0.25fr 2.5fr 0.5fr; 
-    grid-template-areas: 
-      ".header .header"
-      ".main .main"
-      ".footer .footer";
-} */
-
-=======
->>>>>>> style:sass/style.scss
 section .all__img{
     display: flex;
     align-items: center;
@@ -246,17 +231,10 @@ section .hosting{
 /* ----------------- Contactos ----------------- */
 
 .form{
-<<<<<<< HEAD:styles/style.css
-    padding-right: 250px;
-    padding-left: 250px;
-    margin-right: 250px;
-    margin-left: 250px;
-=======
     padding-right: 15%;
     padding-left: 15%;
     margin-right: 15%;
     margin-left: 15%;
->>>>>>> style:sass/style.scss
 }
 
 /* ----------------- Media Queries ----------------- */
