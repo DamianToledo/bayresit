@@ -155,6 +155,12 @@ section .medida{
     justify-content: space-evenly;
 }
 
+.st{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 /* ----------------- Redes ----------------- */
 
 section .servicios__redes{
@@ -239,7 +245,7 @@ section .hosting{
 
 /* ----------------- Media Queries ----------------- */
 
-/*.grid__container {
+.grid__container {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 0.25fr 1.5fr 0.25fr; 
@@ -248,4 +254,10 @@ section .hosting{
       "navbar navbar"
       "main main"
       "footer footer"; 
-  }/*
+  }
+
+@media (min-width:520px){
+    body{
+
+    }
+}
