@@ -38,11 +38,6 @@ footer ul p {
 
 
 /* ----------------- Servicio Tecnico ----------------- */
-.main {
-  background-color: #fff;
-  grid-area: main;
-  width: 100%;
-}
 
 main h2 {
   text-align: center;
@@ -92,7 +87,8 @@ section .medida {
 }
 
 .st {
-  padding-top: 5%;
+  padding-top: 1%;
+  padding-right: 5%;
   padding-left: 5%;
   margin-left: 5%;
   margin-right: 5%;
@@ -142,7 +138,7 @@ main h3 {
   text-align: center;
 }
 
-main h6 {
+main h5 {
   text-decoration: underline;
   text-align: center;
 }
@@ -152,6 +148,10 @@ main h6 {
   padding-left: 50px;
   margin-right: 50px;
   margin-left: 50px;
+}
+
+.tittle{
+  padding: 2%;
 }
 
 /* ----------------- Web ----------------- */
